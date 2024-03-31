@@ -7,6 +7,13 @@ The first example in the documentation appears to have deprecated function calls
 
 I suggest reading through the linked example first, since it has context for why the files are organized and named as they are.
 
+Briefly:
+```main.py``` instances the bot, loads commands in fun.py, sets up an on_ready() event and a !ping command, and starts the bot running.
+
+```fun.py``` sets up a "module" with its own commands.
+
+```config.py``` has server/username/password information.
+
 # Installing Nio-Bot Package
 Creating and activating a virtual environment is optional, but probably a good idea.
 

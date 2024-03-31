@@ -21,7 +21,6 @@ async def on_ready(_):
     # will fail to fire, and will cause a potentially catasrophic failure.
     print("Bot is ready!")
 
-
 @bot.command(name='ping')
 async def ping(ctx: niobot.Context):  # can be invoked with "!ping"
     print("Pinging?")
