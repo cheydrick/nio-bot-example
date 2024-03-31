@@ -38,4 +38,6 @@ To run:
 (nio-bot) $ python3 main.py
 ```
 
-Use ctrl-c to exit.
+The bot will join any room or direct message it's invited to.
+
+Use ctrl-c to exit. You can inspect bot.log if anything goes wrong.
