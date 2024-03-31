@@ -3,7 +3,9 @@ Example of how to use Nio-Bot. Based on the official documentation's quick start
 
 https://docs.nio-bot.dev/guides/001-getting-started/
 
-The first example in the documentation appears to have deprecated function calls. This examples uses functions that work with Nio-Bot 1.1.0 (modern at the time of this writing).
+The first example in the documentation appears to have deprecated function calls. This examples uses functions that work with Nio-Bot 1.1.0 (modern at the time of this writing). I also added a command (althello) in fun.py to show how to make the bot reply to the room, instead of directly back at the command sender.
+
+I suggest reading through the linked example first, since it has context for why the files are organized and named as they are.
 
 # Installing Nio-Bot Package
 Creating and activating a virtual environment is optional, but probably a good idea.
